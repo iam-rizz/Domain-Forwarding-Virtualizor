@@ -23,9 +23,52 @@
 - **[English](README_EN.md)** - Read in English
 - **Bahasa Indonesia** - Anda sedang membaca versi bahasa Indonesia
 
-## 📋 Gambaran Umum
+## � Daftar Isi
+
+- [📋 Gambaran Umum](#-gambaran-umum)
+- [💡 Rekomendasi VPS & Hosting](#-rekomendasi-vps--hosting)
+- [✨ Fitur Utama](#-fitur-utama)
+- [🚧 Status Proyek & Roadmap](#-status-proyek--roadmap)
+- [📦 Instalasi](#-instalasi)
+- [🛠️ Script yang Tersedia](#️-script-yang-tersedia)
+- [🚀 Mulai Cepat](#-mulai-cepat)
+- [📖 Penggunaan Detail](#-penggunaan-detail)
+- [🎯 Kasus Penggunaan](#-kasus-penggunaan)
+- [🔧 Fitur Lanjutan](#-fitur-lanjutan)
+- [🔄 Contoh Workflow](#-contoh-workflow)
+- [🐛 Troubleshooting](#-troubleshooting)
+- [🤝 Kontribusi](#-kontribusi)
+- [📄 Lisensi](#-lisensi)
+- [🙏 Penghargaan](#-penghargaan)
+- [📞 Dukungan](#-dukungan)
+
+## �📋 Gambaran Umum
 
 Repository ini menyediakan seperangkat lengkap script bash untuk mengelola aturan domain dan port forwarding di lingkungan VPS Virtualizor. Tool ini menawarkan antarmuka interaktif dan command-line dengan fitur otomasi yang cerdas.
+
+---
+
+### 💡 Rekomendasi VPS & Hosting
+
+<div align="center">
+
+Butuh VPS untuk testing script ini? **[HostData.id](https://hostdata.id)** menyediakan berbagai pilihan hosting terpercaya dengan harga terjangkau.
+
+[![HostData.id](https://img.shields.io/badge/HostData.id-VPS%20Terpercaya-FF6B35?style=flat&logo=server&logoColor=white)](https://hostdata.id) 
+[![NAT VPS](https://img.shields.io/badge/NAT%20VPS-Mulai%2015K/bulan-00C851?style=flat)](https://hostdata.id/nat-vps)
+[![VPS Indonesia](https://img.shields.io/badge/VPS%20Indonesia-Mulai%20200K/bulan-007ACC?style=flat&logo=server)](https://hostdata.id/vps-indonesia)
+[![Dedicated Server](https://img.shields.io/badge/Dedicated%20Server-Enterprise%20Ready-8B5CF6?style=flat&logo=server)](https://hostdata.id/dedicated-server)
+
+</div>
+
+#### 🚀 Paket Hosting yang Tersedia
+
+| Jenis Hosting | Harga Mulai | Spesifikasi | Cocok Untuk |
+|---------------|-------------|-------------|-------------|
+| **NAT VPS** | **15K/bulan** | SSD NVMe, Shared IP | Testing, Development, Personal Project |
+| **VPS Indonesia** | **200K/bulan** | Dedicated IP, Full Root, SSD | Production Website, App Deployment |
+| **Dedicated Server** | **Custom** | Full Hardware Control | Enterprise, High Traffic, Database Server |
+
 
 ### ✨ Fitur Utama
 
@@ -395,6 +438,19 @@ Proyek ini dilisensikan di bawah MIT License - lihat file [LICENSE](LICENSE) unt
 - **Issues**: [GitHub Issues](https://github.com/iam-rizz/Domain-Forwarding-Virtualizor/issues)
 - **Dokumentasi**: README ini dan bantuan inline (`--help`)
 - **Komunitas**: Jangan ragu untuk berkontribusi perbaikan dan saran
+
+### 💬 Hubungi Developer
+
+<div align="center">
+
+**Butuh bantuan atau ada pertanyaan tentang script ini?**
+
+[![Telegram](https://img.shields.io/badge/Telegram-@rizzid03-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/rizzid03)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat%20Developer-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6285700994200)
+
+*💡 Siap membantu implementasi, troubleshooting, dan custom development*
+
+</div>
 
 ---
 

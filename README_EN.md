@@ -23,9 +23,52 @@
 - **English** - You are reading the English version
 - **[Bahasa Indonesia](README.md)** - Baca dalam bahasa Indonesia
 
-## 📋 Overview
+## � Table of Contents
+
+- [📋 Overview](#-overview)
+- [💡 VPS & Hosting Recommendation](#-vps--hosting-recommendation)
+- [✨ Key Features](#-key-features)
+- [🚧 Project Status & Roadmap](#-project-status--roadmap)
+- [📦 Installation](#-installation)
+- [🛠️ Available Scripts](#️-available-scripts)
+- [🚀 Quick Start](#-quick-start)
+- [📖 Detailed Usage](#-detailed-usage)
+- [🎯 Use Cases](#-use-cases)
+- [🔧 Advanced Features](#-advanced-features)
+- [🔄 Workflow Examples](#-workflow-examples)
+- [🐛 Troubleshooting](#-troubleshooting)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [🙏 Acknowledgments](#-acknowledgments)
+- [📞 Support](#-support)
+
+## �📋 Overview
 
 This repository provides a complete set of bash scripts for managing domain and port forwarding rules in Virtualizor VPS environments. The tools offer both interactive and command-line interfaces with smart automation features.
+
+---
+
+### 💡 VPS & Hosting Recommendation
+
+<div align="center">
+
+Need VPS for testing this script? **[HostData.id](https://hostdata.id)** provides various trusted hosting options at affordable prices.
+
+[![HostData.id](https://img.shields.io/badge/HostData.id-Trusted%20VPS-FF6B35?style=flat&logo=server&logoColor=white)](https://hostdata.id) 
+[![NAT VPS](https://img.shields.io/badge/NAT%20VPS-Starting%2015K/month-00C851?style=flat)](https://hostdata.id/nat-vps)
+[![VPS Indonesia](https://img.shields.io/badge/VPS%20Indonesia-Starting%20200K/month-007ACC?style=flat&logo=server)](https://hostdata.id/vps-indonesia)
+[![Dedicated Server](https://img.shields.io/badge/Dedicated%20Server-Enterprise%20Ready-8B5CF6?style=flat&logo=server)](https://hostdata.id/dedicated-server)
+
+</div>
+
+#### 🚀 Available Hosting Packages
+
+| Hosting Type | Starting Price | Specifications | Perfect For |
+|--------------|----------------|----------------|-------------|
+| **NAT VPS** | **15K/month** | SSD NVMe, Shared IP | Testing, Development, Personal Projects |
+| **VPS Indonesia** | **200K/month** | Dedicated IP, Full Root, SSD | Production Websites, App Deployment |
+| **Dedicated Server** | **Custom** | Full Hardware Control | Enterprise, Server Indonesia |
+
 
 ### ✨ Key Features
 
@@ -50,6 +93,7 @@ This repository provides a complete set of bash scripts for managing domain and 
 - [ ] **Edit Forwarding** - Modify existing forwarding configurations with before/after comparison
 - [ ] **Delete Forwarding** - Remove existing forwarding rules safely
 
+
 #### Advanced Features  
 - [ ] **Auto-Port Setting** - Automatic port 80/443 for HTTP/HTTPS protocols
 - [ ] **Smart Protocol Handling** - Context-aware prompts based on protocol type
@@ -60,7 +104,8 @@ This repository provides a complete set of bash scripts for managing domain and 
 - [ ] **Interactive & CLI Modes** - Both guided and scriptable interfaces
 - [ ] **Configuration Management** - Centralized API credential management
 
-### 📋 Planned Features
+
+### �📋 Planned Features
 
 #### Short Term (Next Release)
 - [ ] **Batch Operations** - Process multiple rules at once via CLI
@@ -394,6 +439,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Issues**: [GitHub Issues](https://github.com/iam-rizz/Domain-Forwarding-Virtualizor/issues)
 - **Documentation**: This README and inline help (`--help`)
 - **Community**: Feel free to contribute improvements and suggestions
+
+### 💬 Contact Developer
+
+<div align="center">
+
+**Need help or have questions about this script?**
+
+[![Telegram](https://img.shields.io/badge/Telegram-@rizzid03-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/rizzid03)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat%20Developer-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6285700994200)
+
+*💡 Ready to help with implementation, troubleshooting, and custom development*
+
+</div>
 
 ---
 
