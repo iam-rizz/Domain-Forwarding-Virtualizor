@@ -6,7 +6,7 @@
 [![stars](https://img.shields.io/github/stars/iam-rizz/Domain-Forwarding-Virtualizor?color=C9CBFF&labelColor=1A1B26&style=for-the-badge)](https://github.com/iam-rizz/Domain-Forwarding-Virtualizor/stargazers)
 [![size](https://img.shields.io/github/repo-size/iam-rizz/Domain-Forwarding-Virtualizor?color=9ece6a&labelColor=1A1B26&style=for-the-badge)](https://github.com/iam-rizz/Domain-Forwarding-Virtualizor)
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fiam-rizz%2FDomain-Forwarding-Virtualizor&label=View&labelColor=%231a1b26&countColor=%23e0af68)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fiam-rizz%2FDomain-Forwarding-Virtualizor)
-[![license](https://img.shields.io/github/license/iam-rizz/Domain-Forwarding-Virtualizor?color=FCA2AA&labelColor=1A1B26&style=for-the-badge)](https://github.com/iam-rizz/Domain-Forwarding-Virtualizor/blob/main/LICENSE)
+
 
 </div>
 <h2 align="center"> ━━━━━━  ❖  ━━━━━━ </h2>
