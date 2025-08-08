@@ -44,22 +44,22 @@ Repository ini menyediakan seperangkat lengkap script bash untuk mengelola atura
 ### ✅ Fitur yang Sudah Selesai
 
 #### Fungsionalitas Inti
-- [x] **Manajemen VM** - Daftar dan kelola virtual machine dengan filter status
-- [x] **Daftar Port Forwarding** - Lihat aturan forwarding yang ada dengan informasi detail  
-- [x] **Tambah Forwarding** - Buat aturan forwarding baru dengan validasi komprehensif
-- [x] **Edit Forwarding** - Ubah konfigurasi forwarding yang ada dengan perbandingan sebelum/sesudah
-- [x] **Delete Forwarding** - Hapus aturan forwarding yang ada dengan aman
+- [ ] **Manajemen VM** - Daftar dan kelola virtual machine dengan filter status
+- [ ] **Daftar Port Forwarding** - Lihat aturan forwarding yang ada dengan informasi detail  
+- [ ] **Tambah Forwarding** - Buat aturan forwarding baru dengan validasi komprehensif
+- [ ] **Edit Forwarding** - Ubah konfigurasi forwarding yang ada dengan perbandingan sebelum/sesudah
+- [ ] **Delete Forwarding** - Hapus aturan forwarding yang ada dengan aman
 
 
 #### Fitur Lanjutan  
-- [x] **Auto-Port Setting** - Port otomatis 80/443 untuk protokol HTTP/HTTPS
-- [x] **Smart Protocol Handling** - Prompt yang sadar konteks berdasarkan jenis protokol
-- [x] **Integrasi HAProxy** - Validasi port real-time dan petunjuk konfigurasi
-- [x] **Auto-Detection** - Deteksi IP otomatis untuk protokol TCP menggunakan config HAProxy
-- [x] **Enhanced Error Handling** - Pesan error yang user-friendly dengan petunjuk yang dapat ditindaklanjuti
-- [x] **Color-coded Output** - Output terminal yang indah dengan syntax highlighting
-- [x] **Mode Interaktif & CLI** - Antarmuka terpandu dan scriptable
-- [x] **Manajemen Konfigurasi** - Manajemen kredensial API terpusat
+- [ ] **Auto-Port Setting** - Port otomatis 80/443 untuk protokol HTTP/HTTPS
+- [ ] **Smart Protocol Handling** - Prompt yang sadar konteks berdasarkan jenis protokol
+- [ ] **Integrasi HAProxy** - Validasi port real-time dan petunjuk konfigurasi
+- [ ] **Auto-Detection** - Deteksi IP otomatis untuk protokol TCP menggunakan config HAProxy
+- [ ] **Enhanced Error Handling** - Pesan error yang user-friendly dengan petunjuk yang dapat ditindaklanjuti
+- [ ] **Color-coded Output** - Output terminal yang indah dengan syntax highlighting
+- [ ] **Mode Interaktif & CLI** - Antarmuka terpandu dan scriptable
+- [ ] **Manajemen Konfigurasi** - Manajemen kredensial API terpusat
 
 ### 🔄 Sedang Dikerjakan
 
