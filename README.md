@@ -87,22 +87,22 @@ Butuh VPS untuk testing script ini? **[HostData.id](https://hostdata.id)** menye
 ### ✅ Fitur yang Sudah Selesai
 
 #### Fungsionalitas Inti
-- [ ] **Manajemen VM** - Daftar dan kelola virtual machine dengan filter status
-- [ ] **Daftar Port Forwarding** - Lihat aturan forwarding yang ada dengan informasi detail  
-- [ ] **Tambah Forwarding** - Buat aturan forwarding baru dengan validasi komprehensif
-- [ ] **Edit Forwarding** - Ubah konfigurasi forwarding yang ada dengan perbandingan sebelum/sesudah
-- [ ] **Delete Forwarding** - Hapus aturan forwarding yang ada dengan aman
+- [x] **Manajemen VM** - Daftar dan kelola virtual machine dengan filter status
+- [x] **Daftar Port Forwarding** - Lihat aturan forwarding yang ada dengan informasi detail  
+- [x] **Tambah Forwarding** - Buat aturan forwarding baru dengan validasi komprehensif
+- [x] **Edit Forwarding** - Ubah konfigurasi forwarding yang ada dengan perbandingan sebelum/sesudah
+- [x] **Delete Forwarding** - Hapus aturan forwarding yang ada dengan aman
 
 
 #### Fitur Lanjutan  
-- [ ] **Auto-Port Setting** - Port otomatis 80/443 untuk protokol HTTP/HTTPS
-- [ ] **Smart Protocol Handling** - Prompt yang sadar konteks berdasarkan jenis protokol
-- [ ] **Integrasi HAProxy** - Validasi port real-time dan petunjuk konfigurasi
-- [ ] **Auto-Detection** - Deteksi IP otomatis untuk protokol TCP menggunakan config HAProxy
-- [ ] **Enhanced Error Handling** - Pesan error yang user-friendly dengan petunjuk yang dapat ditindaklanjuti
-- [ ] **Color-coded Output** - Output terminal yang indah dengan syntax highlighting
-- [ ] **Mode Interaktif & CLI** - Antarmuka terpandu dan scriptable
-- [ ] **Manajemen Konfigurasi** - Manajemen kredensial API terpusat
+- [x] **Auto-Port Setting** - Port otomatis 80/443 untuk protokol HTTP/HTTPS
+- [x] **Smart Protocol Handling** - Prompt yang sadar konteks berdasarkan jenis protokol
+- [x] **Integrasi HAProxy** - Validasi port real-time dan petunjuk konfigurasi
+- [x] **Auto-Detection** - Deteksi IP otomatis untuk protokol TCP menggunakan config HAProxy
+- [x] **Enhanced Error Handling** - Pesan error yang user-friendly dengan petunjuk yang dapat ditindaklanjuti
+- [x] **Color-coded Output** - Output terminal yang indah dengan syntax highlighting
+- [x] **Mode Interaktif & CLI** - Antarmuka terpandu dan scriptable
+- [x] **Manajemen Konfigurasi** - Manajemen kredensial API terpusat
 
 ### 📋 Fitur yang Direncanakan
 
@@ -123,8 +123,9 @@ Butuh VPS untuk testing script ini? **[HostData.id](https://hostdata.id)** menye
 
 ### 🎯 Fokus Pengembangan
 
-**Sprint Saat Ini**: Batch operations dan configuration validation  
-**Sprint Berikutnya**: Template system dan backup/restore functionality  
+**🎉 Status Saat Ini**: Core functionality complete - Ready for production use!  
+**Sprint Berikutnya**: Batch operations dan configuration validation  
+**Jangka Menengah**: Template system dan backup/restore functionality  
 **Masa Depan**: Monitoring lanjutan dan web interface
 
 ## 📦 Instalasi
@@ -368,6 +369,9 @@ Script `vm.sh` menyediakan shortcut yang nyaman untuk semua script lainnya:
 for domain in site1.com site2.com site3.com; do
     ./addforward.sh --vpsid 103 --protocol HTTP --domain $domain
 done
+
+# Hapus beberapa forwarding sekaligus
+./deleteforward.sh --vpsid 103 --vdfid 596,597,598 --force
 ```
 
 ## 🐛 Troubleshooting

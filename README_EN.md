@@ -87,22 +87,22 @@ Need VPS for testing this script? **[HostData.id](https://hostdata.id)** provide
 ### ✅ Completed Features
 
 #### Core Functionality
-- [ ] **VM Management** - List and manage virtual machines with status filtering
-- [ ] **Port Forwarding Listing** - View existing forwarding rules with detailed information  
-- [ ] **Add Forwarding** - Create new forwarding rules with comprehensive validation
-- [ ] **Edit Forwarding** - Modify existing forwarding configurations with before/after comparison
-- [ ] **Delete Forwarding** - Remove existing forwarding rules safely
+- [x] **VM Management** - List and manage virtual machines with status filtering
+- [x] **Port Forwarding Listing** - View existing forwarding rules with detailed information  
+- [x] **Add Forwarding** - Create new forwarding rules with comprehensive validation
+- [x] **Edit Forwarding** - Modify existing forwarding configurations with before/after comparison
+- [x] **Delete Forwarding** - Remove existing forwarding rules safely
 
 
 #### Advanced Features  
-- [ ] **Auto-Port Setting** - Automatic port 80/443 for HTTP/HTTPS protocols
-- [ ] **Smart Protocol Handling** - Context-aware prompts based on protocol type
-- [ ] **HAProxy Integration** - Real-time port validation and configuration hints
-- [ ] **Auto-Detection** - Automatic IP detection for TCP protocols using HAProxy config
-- [ ] **Enhanced Error Handling** - User-friendly error messages with actionable hints
-- [ ] **Color-coded Output** - Beautiful terminal output with syntax highlighting
-- [ ] **Interactive & CLI Modes** - Both guided and scriptable interfaces
-- [ ] **Configuration Management** - Centralized API credential management
+- [x] **Auto-Port Setting** - Automatic port 80/443 for HTTP/HTTPS protocols
+- [x] **Smart Protocol Handling** - Context-aware prompts based on protocol type
+- [x] **HAProxy Integration** - Real-time port validation and configuration hints
+- [x] **Auto-Detection** - Automatic IP detection for TCP protocols using HAProxy config
+- [x] **Enhanced Error Handling** - User-friendly error messages with actionable hints
+- [x] **Color-coded Output** - Beautiful terminal output with syntax highlighting
+- [x] **Interactive & CLI Modes** - Both guided and scriptable interfaces
+- [x] **Configuration Management** - Centralized API credential management
 
 
 ### �📋 Planned Features
@@ -124,8 +124,9 @@ Need VPS for testing this script? **[HostData.id](https://hostdata.id)** provide
 
 ### 🎯 Development Focus
 
-**Current Sprint**: Batch operations and configuration validation  
-**Next Sprint**: Template system and backup/restore functionality  
+**🎉 Current Status**: Core functionality complete - Ready for production use!  
+**Next Sprint**: Batch operations and configuration validation  
+**Medium Term**: Template system and backup/restore functionality  
 **Future**: Advanced monitoring and web interface
 
 ## 📦 Installation
@@ -369,6 +370,9 @@ The `vm.sh` script provides convenient shortcuts to all other scripts:
 for domain in site1.com site2.com site3.com; do
     ./addforward.sh --vpsid 103 --protocol HTTP --domain $domain
 done
+
+# Delete multiple forwarding rules at once
+./deleteforward.sh --vpsid 103 --vdfid 596,597,598 --force
 ```
 
 ## 🐛 Troubleshooting
